@@ -1,6 +1,8 @@
 
-## Python script using Pandas to process Excel data:
+
 **Whether it’s data cleaning, aggregation, visualization, or handling large datasets, pandas offers efficient and powerful tools to streamline workflows.**
+
+## Python script using Pandas to process Excel data:
 
 1.  **Loading data from an Excel file**
     
@@ -15,7 +17,7 @@
 
 ### Step 1: Install Required Libraries
 
-```sh
+```shell
 pip install pandas openpyxl
 ```
 
@@ -84,7 +86,7 @@ if __name__ == "__main__":
     main()
 ```
 
-### Explanation of `app.py` Script
+### Explanation of `app.py`
 
 1.  **Load Excel Data**: The script loads data from the specified Excel file and sheet.
     
@@ -107,8 +109,8 @@ if __name__ == "__main__":
     
 3.  Run the script:
     
-    ```sh
-    python app.py
-    ```
+```shell
+python app.py
+```
 
 This script will process your data, clean it, add tax, adjust markup, and save the results to both the Excel file and a CSV file in your local directory.
