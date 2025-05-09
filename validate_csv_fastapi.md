@@ -1,3 +1,20 @@
+### Overview
+
+1.  **Endpoints**:
+    
+    - `POST /validate`: Accepts CSV file via URL or upload, optional schema, and dialect options.
+    - `GET /validate`: Accepts CSV and schema URLs, with dialect options in query parameters.
+2.  **Validation**:
+    
+    - Validates CSV content for format, structure, and optional schema.
+    - Errors, warnings, and info are categorized for better insights.
+3.  **Error Handling**:
+    
+    - Detailed error messages for invalid inputs or URL fetch failures.
+4.  **Dialect Options**:
+    
+    - Supports custom dialect settings like delimiter and header.
+
 ```python
 from fastapi import FastAPI, UploadFile, Form, Query, HTTPException
 from fastapi.responses import JSONResponse
@@ -121,22 +138,4 @@ async def validate_csv_get(
     })
 
 ```
-
-### Explanation
-
-1.  **Endpoints**:
-    
-    - `POST /validate`: Accepts CSV file via URL or upload, optional schema, and dialect options.
-    - `GET /validate`: Accepts CSV and schema URLs, with dialect options in query parameters.
-2.  **Validation**:
-    
-    - Validates CSV content for format, structure, and optional schema.
-    - Errors, warnings, and info are categorized for better insights.
-3.  **Error Handling**:
-    
-    - Detailed error messages for invalid inputs or URL fetch failures.
-4.  **Dialect Options**:
-    
-    - Supports custom dialect settings like delimiter and header.
-
 *run and test this app locally first
