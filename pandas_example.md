@@ -1,4 +1,4 @@
-# Python script that incorporates the use of pandas:
+# Python script using Pandas to process Excel data:
 
 1.  **Loading data from an Excel file**
     
@@ -12,8 +12,6 @@
     
 
 ### Step 1: Install Required Libraries
-
-Ensure you have pandas and openpyxl installed. You can install them using pip:
 
 ```sh
 pip install pandas openpyxl
@@ -101,7 +99,7 @@ if __name__ == "__main__":
 
 ### Running the Script
 
-1.  Save your script as `app.py`.
+1.  Save the script as `app.py`.
     
 2.  Ensure your Excel file is in the same directory or provide the correct path.
     
