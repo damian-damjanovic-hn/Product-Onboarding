@@ -1,4 +1,4 @@
-# Python script `app.py` that incorporates the use of pandas for the following tasks:
+# Python script that incorporates the use of pandas:
 
 1.  **Loading data from an Excel file**
     
