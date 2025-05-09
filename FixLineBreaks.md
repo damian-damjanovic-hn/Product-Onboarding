@@ -1,4 +1,3 @@
-
 ### VBA Macro to Fix Line Break Issues
 
 1.  **Open Excel** and press `ALT + F11` to open the Visual Basic for Applications editor.
@@ -6,11 +5,9 @@
 2.  **Insert a new module** by right-clicking on any of the existing modules or the workbook, then select `Insert > Module`.
     
 3.  **Copy and paste the following code** into the module:
-    
 
-vba
 
-```
+```vba
 Sub FixLineBreaks()
     Dim ws As Worksheet
     Dim cell As Range
